@@ -1,0 +1,9 @@
+{
+  "name": "示例流程",
+  "steps": [
+    {"type": "match_click", "label": "开始按钮", "template": "assets/start-button.png", "threshold": 0.88, "required": true},
+    {"type": "wait", "label": "等待加载", "seconds": 2},
+    {"type": "key", "label": "确认", "key": "enter"}
+  ]
+}
+
